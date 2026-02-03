@@ -427,7 +427,7 @@ def radex_uncertainty_grid(observed_transitions, molecule, min_freq, max_freq,
                            line_width, lim, fit_params, grid_points=15,
                            max_enlargings=10, inds=None):
     """
-    Calculate the uncertainty for a given column density with RADEX online.
+    Calculate the uncertainty for a given column density with RADEX.
 
     Parameters
     ----------
