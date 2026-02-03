@@ -198,7 +198,7 @@ def radex(molecule, min_freq, max_freq, kin_temp, backgr_temp, h2_num_dens,
     Returns
     -------
     transitions_df : dataframe
-        List of calculated transitions by RADEX on-line
+        List of calculated transitions by RADEX.
     """
     radex_name = species_abreviations[molecule]
     def create_radex_input(molecule, min_freq, max_freq, kin_temp, backgr_temp,
